@@ -45,15 +45,6 @@ A small living aquarium that runs in the browser. Everything is in one file, `in
 - "Time" makes hunger and growth run at 1, 2 or 5 times normal speed.
 - The tank is saved in the browser (localStorage), so it is still there when you come back.
 
-## Put it on GitHub Pages
-
-1. Create a new public repository on GitHub, for example `aquarium`.
-2. Upload `index.html` (and this `README.md`) with **Add file → Upload files**, then commit.
-3. Open **Settings → Pages**. Under "Build and deployment" choose **Deploy from a branch**, pick the `main` branch and the `/ (root)` folder, and save.
-4. After a minute or so the site is live at `https://YOUR-USERNAME.github.io/aquarium/`.
-
-To try it without GitHub, open `index.html` in any modern browser.
-
 ## Changing things
 
 All the tuning lives near the top of the script in `index.html`:
